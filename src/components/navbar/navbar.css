@@ -36,3 +36,21 @@
     color: var(--purple-color);
     
 }
+
+@media screen and (max-width: 920px) {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+       
+    } 
+}
+
+@media  screen and (max-width: 600px) {
+    .navbar-items{  
+        visibility: hidden;
+    }
+    .navbar-logo{
+        font-size: 20px;
+        align-items: center;
+    }
+}
