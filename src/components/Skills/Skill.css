@@ -1,0 +1,39 @@
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill{
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+}
+
+.skillitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+   
+}
+
+.skillitems > span {
+    border: solid rgb(176, 175, 175) 0.5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.skill:hover{
+    border: solid rgb(0, 0, 0) 1px;
+}

@@ -5,15 +5,15 @@ const Experience = () => {
     {
       title: "Senior Software Engineer",
       company: "Persistent Systems",
-      duration: "Aug 2022 - Present",
-      skills: ["Neo4j", "Docker", "Flask", "GenAI"],
+      duration: "Oct 2023 - Present",
+      skills: ["Neo4j GDS", "Docker", "FastAPI", "Langchain"],
       logo:require("../../assets/home/logo.png"),
     },
     {
       title: "Software Engineer",
       company: "Persistent Systems",
-      duration: "Aug 2021 - Jul 2022",
-      skills: ["Neo4j", "Docker", "Flask", "GenAI"],
+      duration: "Aug 2021 - Spet 2023",
+      skills: ["Neo4j", "Azure", "Flask", "GenAI"],
       logo: require("../../assets/home/logo.png"),
     },
     {
@@ -28,7 +28,7 @@ const Experience = () => {
   return (
     <div className="container" id="Experience">
       <h2 className="text-center">Experience</h2>
-      <p className="text-secondary text-center">My Works</p>
+      <p className="text-secondary text-center" >My Works</p>
       <div className="row justify-content-center">
         {experiences.map((exp, index) => (
           <React.Fragment key={index}>
