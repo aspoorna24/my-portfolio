@@ -12,7 +12,7 @@ const Navbar = () => {
           <div>Skills</div>
           <div>Experience</div>
           <div>Projects</div>
-          <div>Contact</div>
+         
        </div>
 
     </div>
