@@ -8,7 +8,7 @@ import Project from "./components/Projects/Project";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+    <Navbar />
      <Home />
      <br></br>
     <About />
