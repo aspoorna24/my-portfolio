@@ -1,0 +1,123 @@
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap : 30px
+}
+
+.project-card{
+    width: 350px;
+    height: 340px;
+  border: solid rgb(211, 211, 211) 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 12px ;
+    cursor: pointer;
+  
+}
+
+.project-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.project-card img {
+    height: 250px;
+    width: 320px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.project-title{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.project-details{
+    font-size: 12px;
+    margin-left: 12px;
+    color: gray;
+}
+
+.project-details i{
+    font-size: 10px;
+    color: gray;
+}
+
+
+
+.detail_container {
+    position:absolute;
+    z-index: 1;
+    align-items: center;
+    width: 700px;
+    background: #fff;
+    margin-left : 30%;
+    margin-top : 10%;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border:1px solid #e8e8e8;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+  
+  .detail_container .detail_contant{
+    max-width: 100%;
+  }
+
+  .detail_container .detail_contant .close{
+    border: none;
+    outline: none;
+    background-color: none;
+    cursor: pointer;
+  }
+
+
+  .detail_container .detail_contant .detail_info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    margin-top: 20px;
+  }
+
+  .detail_container .detail_contant .detail_info .img-box img{
+    width: 250px;
+    height: 250px;
+    border: solid rgb(216, 213, 213) 1px;
+   
+    border-radius: 10px;
+  }
+
+  .detail_container .detail_contant .detail_info .product_detail{
+    margin-right: 10px;
+  }
+
+  .detail_container .detail_contant .detail_info .product_detail h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+
+
+  .detail_container .detail_contant .detail_info .product_detail p{
+    font-size: 15px;
+    padding: 10px 5px;
+    width: 300px;
+    text-align: justify;
+    color: #000000;
+    
+  }
+
+  .detail_container .detail_contant .detail_info .product_detail button{
+    padding : 10px 30px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .detail_container .detail_contant .detail_info .product_detail button a{
+    text-decoration: none;
+    color: white;
+  }

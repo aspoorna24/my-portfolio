@@ -4,7 +4,7 @@ import Experience from "./components/Experience/Experience";
 import Skill from "./components/Skills/Skill";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
-                                              
+import Project from "./components/Projects/Project";
 function App() {
   return (
     <div className="App">
@@ -15,8 +15,9 @@ function App() {
     <br></br>
     <Skill />
     <br></br>
-    
     <Experience />
+    <br></br>
+    <Project />
     </div>
     
   );
