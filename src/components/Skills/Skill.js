@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skill.css";
+import "./skill.css";
 function Skill() {
   const skill = [
     {
