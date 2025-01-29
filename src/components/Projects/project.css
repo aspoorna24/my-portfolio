@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    gap : 30px
+    gap : 30px;
+    margin : 30px 0px;
 }
 
 .project-card{
