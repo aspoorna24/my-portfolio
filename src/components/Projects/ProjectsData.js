@@ -43,12 +43,12 @@ const Projects = [
       },
       
       {
-        Title: "Product-Details",
-        Description: "Responsive design of a product details page with description",
-        Skills: ["HTML", "CSS","React"],
+        Title: "Food Choise App",
+        Description: "A React Application of differentt types of foods with options of sreaching and filtering.This application is hosted using Vercel",
+        Skills: ["React", "JavaScript", "HTML", "CSS"],
         Image: 'project6',
-        Link: "https://product-detail-orcin.vercel.app/",
-        Github : "https://github.com/aspoorna24/product-detail"
+        Link: "https://food-logs-eight.vercel.app/",
+        Github : "https://github.com/aspoorna24/food-web?tab=readme-ov-file"
       },
       {
         Title: "Placement Analyzer",
@@ -56,8 +56,15 @@ const Projects = [
         Skills: ["HTML", "CSS","BootStrap","ML Algorithms"],
         Image: 'project7',
         Github : "https://github.com/aspoorna24/Placement-Analyzer"
+      },
+      {
+        Title: "Shopping Cart",
+        Description: "E-commerce simple prototype of application for shopping.This application is hosted using Vercel",
+        Skills: ["react", "HTML", "CSS","BootStrap"],
+        Image: 'project8',
+        Link: "https://shopping-cart-tau-bice.vercel.app/",
+        Github : "https://github.com/aspoorna24/shopping-cart?tab=readme-ov-file"
       }
-      
 
 ]
 
