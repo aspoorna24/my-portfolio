@@ -131,11 +131,4 @@ const Projects = [
 
 ]
 
-export default Projects;',
-        Link: "https://shopping-cart-tau-bice.vercel.app/",
-        Github : "https://github.com/aspoorna24/shopping-cart?tab=readme-ov-file"
-      }
-
-]
-
 export default Projects;
