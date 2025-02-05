@@ -124,7 +124,7 @@ const Projects = [
         Title: "Shopping Cart",
         Description: "E-commerce simple prototype of application for shopping.This application is hosted using Vercel",
         Skills: ["react", "HTML", "CSS","BootStrap"],
-        Image: 'project8',
+        Image: 'project1',
         Link: "https://shopping-cart-tau-bice.vercel.app/",
         Github : "https://github.com/aspoorna24/shopping-cart?tab=readme-ov-file"
       }
